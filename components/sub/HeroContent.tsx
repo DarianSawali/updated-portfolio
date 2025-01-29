@@ -11,7 +11,8 @@ const HeroContent = () => {
     <motion.div 
     initial='hidden'
     animate='visible'
-    className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
+    className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]' 
+    
     >
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
             <motion.div className='welcome-box py-[10px] px-[12px] border border-[#7042f88b] opacity-[0.9]'
