@@ -26,9 +26,9 @@ const HeroContent = () => {
             className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
             >
                 <span className='text-bold'>
-                Hi! I'm
+                Hi! I&apos;m
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Darian </span>
-                here's something about me 
+                here&apos;s something about me 
                 </span>
                 
             </motion.div>
@@ -36,7 +36,7 @@ const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
-                I'm a student at Simon Fraser University, pursuing my Bachelors of Science in Interactive Systems as well as an aspiring Developer with experience in Web, Mobile, and Game Development. 
+                I&apos;m a student at Simon Fraser University, pursuing my Bachelors of Science in Interactive Systems as well as an aspiring Developer with experience in Web, Mobile, and Game Development. 
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}
