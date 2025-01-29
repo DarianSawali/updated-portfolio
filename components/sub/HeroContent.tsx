@@ -27,7 +27,7 @@ const HeroContent = () => {
             >
                 <span className='text-bold'>
                 Hi! I&apos;m
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Darian </span>
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Darian, </span>
                 here&apos;s something about me 
                 </span>
                 
