@@ -21,10 +21,22 @@ const Projects = () => {
                 github='https://github.com/DarianSawali/Chat-App'
             />
             <ProjectCard 
+                src='/spirit-maes.png'
+                title='Spirit Maes'
+                description='A 2.5D Unity top-down puzzle platformer game where players explore levels through an ancient temple by possessing animals to equip their abilities.'
+                github='https://github.com/DarianSawali/Spirit-Maes-Game'
+            />
+            <ProjectCard 
                 src='/travelogger.png'
                 title='TraveLogger'
                 description='A mobile application developed using Java in Android Studio that allows users to track and log steps for any given session.'
                 github='https://github.com/MichaelTj02/TraveLogger'
+            />
+            <ProjectCard 
+                src='/mystic-woods.png'
+                title='Survival Game'
+                description='A simple 2D Unity survival game that incorporates multiple levels for players to eliminate the monsters and enemies that spawn in.'
+                github='https://github.com/DarianSawali/Unity-Survival-Game'
             />
         </div>
     </div>
