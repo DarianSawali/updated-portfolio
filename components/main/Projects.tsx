@@ -12,7 +12,7 @@ const Projects = () => {
                 src='/cinescope.png'
                 title='Movie Directory App'
                 description='A fullstack movie directory application created using React and TailwindCSS for frontend as well as PHP and MySQL for backend, with the addition of the TMDB API to fetch images.'
-                github='https://github.com/DarianSawali/Youtube_Clone'
+                github='https://github.com/DarianSawali/CineScope'
             />
             <ProjectCard 
                 src='/yt-clone.png'
