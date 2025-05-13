@@ -1,220 +1,94 @@
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiPhp,
+  SiKotlin,
+  SiMysql,
+  SiMongodb,
+  SiSqlite,
+  SiReact,
+  SiNodedotjs,
+  SiNextdotjs,
+  SiExpress,
+  SiTailwindcss,
+  SiJest,
+  SiSocketdotio,
+  SiMui,
+  SiFigma,
+  SiFramer,
+  SiGit,
+  SiGithub,
+  SiUnity,
+  SiAndroidstudio,
+  SiEclipseide,
+} from "react-icons/si";
+
+import { 
+  VscVscode 
+} from "react-icons/vsc";
+
+import { 
+  FaJava,
+  FaGithub,
+  FaLinkedin  
+} from "react-icons/fa";
+
+import { 
+  TbBrandCSharp  
+} from "react-icons/tb";
+
 export const Languages = [
-    {
-      skill_name: "Html 5",
-      Image: "/html.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Css",
-      Image: "/css.png",
-      width: 95,
-      height: 95,
-    },
-    {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Java",
-      Image: "/java.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "C#",
-      Image: "/csharp.svg",
-      width: 80,
-      height: 80,
-    },  
-    {
-      skill_name: "SQL",
-      Image: "/sql.svg",
-      width: 70,
-      height: 70,
-    },  
-    {
-      skill_name: "Kotlin",
-      Image: "/kotlin.svg",
-      width: 70,
-      height: 70,
-    },  
-    {
-        skill_name: "PHP",
-        Image: "/php.svg",
-        width: 70,
-        height: 70,
-      }, 
-  ];
+  { name: "HTML5", icon: SiHtml5, color: "#ffffff" },
+  { name: "CSS3", icon: SiCss3, color: "#ffffff" },
+  { name: "JavaScript", icon: SiJavascript, color: "#ffffff" },
+  { name: "TypeScript", icon: SiTypescript, color: "#ffffff" },
+  { name: "Java", icon: FaJava, color: "#ffffff" },
+  { name: "C#", icon: TbBrandCSharp, color: "#ffffff" },
+  { name: "PHP", icon: SiPhp, color: "#ffffff" },
+  { name: "Kotlin", icon: SiKotlin, color: "#ffffff" },
+];
 
-  export const Frameworks = [
-    {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React",
-      Image: "/react.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Node js",
-      Image: "/nodejs.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next js",
-      Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-        skill_name: "Express js",
-        Image: "/express.png",
-        width: 80,
-        height: 80,
-    },
-    {
-      skill_name: "Jest",
-      Image: "/jest.svg",
-      width: 80,
-      height: 80,
-    },
-      
-      
-  ];
-  
+export const Frameworks = [
+  { name: "React", icon: SiReact, color: "#ffffff" },
+  { name: "Node.js", icon: SiNodedotjs, color: "#ffffff" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
+  { name: "Express.js", icon: SiExpress, color: "#ffffff" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#ffffff" },
+  { name: "Jest", icon: SiJest, color: "#ffffff" },
+];
 
-  
-  
-  export const Technologies = [
-    {
-      skill_name: "MongoDB",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
-    {
-      skill_name: "MySQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "SQLite",
-      Image: "/sqlite.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-        skill_name: "Framer Motion",
-        Image: "/framer.png",
-        width: 80,
-        height: 80,
-    },
-    {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
-    },
-    {
-        skill_name: "Socket.IO",
-        Image: "/socketio.svg",
-        width: 60,
-        height: 60,
-    },
-    {
-        skill_name: "Figma",
-        Image: "/figma.png",
-        width: 50,
-        height: 50,
-    },
-    
+export const Technologies = [
+  { name: "MongoDB", icon: SiMongodb, color: "#ffffff" },
+  { name: "MySQL", icon: SiMysql, color: "#ffffff" },
+  { name: "SQLite", icon: SiSqlite, color: "#ffffff" },
+  { name: "Socket.IO", icon: SiSocketdotio, color: "#ffffff" },
+  { name: "Material UI", icon: SiMui, color: "#ffffff" },
+  { name: "Figma", icon: SiFigma, color: "#ffffff" },
+  { name: "Framer Motion", icon: SiFramer, color: "#ffffff" },
+];
 
-  ];
-  
-  export const Tools = [
-    {
-      skill_name: "VSCode",
-      Image: "/vscode.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Visual Studio",
-      Image: "/visual-studio.svg",
-      width: 60,
-      height: 60,
-    },
-    {
-      skill_name: "Git",
-      Image: "/git.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Github",
-      Image: "/github-color.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Unity",
-      Image: "/unity.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Android Studio",
-      Image: "/android-studio.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Eclipse",
-      Image: "/eclipse.svg",
-      width: 70,
-      height: 70,
-    },
+export const Tools = [
+  { name: "VS Code", icon: VscVscode, color: "#ffffff" },
+  { name: "Git", icon: SiGit, color: "#ffffff" },
+  { name: "GitHub", icon: SiGithub, color: "#ffffff" },
+  { name: "Unity", icon: SiUnity, color: "#ffffff" },
+  { name: "Android Studio", icon: SiAndroidstudio, color: "#ffffff" },
+  { name: "Eclipse", icon: SiEclipseide, color: "#ffffff" },
+];
 
-  
-  ];
-
-  export const Socials = [
-    // {
-    //   name: "Instagram",
-    //   src: "/instagram.svg",
-    //   link: "",
-    // },
-    {
-      name: "Github",
-      src: "/github.svg",
-      link: "https://github.com/DarianSawali",
-    },
-    {
-      name: "LinkedIn",
-      src: "/linkedin.svg",
-      link: "https://www.linkedin.com/in/dariansawali/",
-    },
-  ];
-  
-  
-
-  
-  
-  
-  
-  
+export const Socials = [
+  {
+    name: "GitHub",
+    link: "https://github.com/DarianSawali",
+    icon: FaGithub,
+    color: "#ffffff",
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/dariansawali/",
+    icon: FaLinkedin,
+    color: "#ffffff",
+  },
+];

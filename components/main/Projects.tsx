@@ -3,11 +3,17 @@ import ProjectCard from '../sub/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col items-center justify-center py-20' id="projects">
+    <div className='flex flex-col items-center justify-center pb-20' id="projects">
         <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
             My Projects
         </h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-10 w-full'>
+            <ProjectCard 
+                src='/cinescope.png'
+                title='Movie Directory App'
+                description='A fullstack movie directory application created using React and TailwindCSS for frontend as well as PHP and MySQL for backend, with the addition of the TMDB API to fetch images.'
+                github='https://github.com/DarianSawali/Youtube_Clone'
+            />
             <ProjectCard 
                 src='/yt-clone.png'
                 title='YouTube Clone'
